@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+  font-size: 18px;  
+  /*font-family: 'Alkalami', serif;*/
+  font-family: 'Outfit', sans-serif;
+
+  /*Primary Colors*/
+--soft_blue: hsl(215, 51%, 70%);
+--cyan: hsl(178, 100%, 50%);
+
+/*Neutral Colors*/
+--very_dark_blueBG: hsl(217, 54%, 11%); /*MAIN BG*/
+--very_dark_blueCBG: hsl(216, 50%, 16%); /*CARD BG*/
+--very_dark_blueLine: hsl(215, 32%, 27%); /*LINE*/
+--white: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--very_dark_blueBG);
+}
+
+main {  
+  display: flex;
+  justify-content: center;
+}
+
+.card-equilibrium {  
+  position: absolute;  
+  display: flex;
+  flex-direction: column;
+  margin: 8%;  
+  width: 350px;
+  height: 560px;  
+  background-color: var(--very_dark_blueCBG);
+  border-radius: 5%;
+  align-items: center;
+  
+}
+
+.container_equilibrium {
+  margin: 20px;
+  width: 290px;
+  height: 290px;
+  border-radius: 5%;
+  background-image: url(/images/icon-view.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40px 40px;  
+}
+
+.container_equilibrium img {    
+  width: 290px;
+  height: 290px;
+  border-radius: 5%;    
+}
+
+.container_equilibrium img:hover {
+  cursor: pointer;  
+  opacity: 70%;
+  filter: blur(4px) brightness(180%);  
+}
+
+.name {  
+  margin-left: 30px;
+  margin-top: 0;
+  color: var(--cyan);    
+  font-size: 20px;
+}
+
+.name strong:hover{
+  cursor: pointer;
+}
+
+p {
+  text-align: justify;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: var(--soft_blue);
+}
+
+.etherum {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.etherum img {
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 13px;
+  height: 20px;
+}
+
+.etherum p {  
+  margin: 0;
+  color: var(--white);
+  font-size: 16px;
+}
+
+hr {
+  border: 1px solid var(--very_dark_blueLine);
+  margin: 10px;
+}
+
+.clock {
+  display: flex;
+  justify-items: auto;
+}
+
+.clock img{
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  margin-left: 80px;
+}
+
+.clock span {    
+  margin-left: 10px;
+  color: var(--soft_blue);
+  font-size: 16px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  justify-items: auto;
+  font-size: 15px;   
+}
+
+.profile img {  
+  margin-left: 30px;
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.profile p {  
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 10px;
+}
+
+.profile strong {
+  margin-left: 5px;  
+  margin-top: 10px;
+  color: var(--soft_blue);
+  align-self: baseline;
+}
+
+.profile strong:hover {
+  cursor: pointer;
+}
