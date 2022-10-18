@@ -153,3 +153,76 @@ hr {
 .profile strong:hover {
   cursor: pointer;
 }
+
+/*--------- Media Query ----------*/
+@media(max-width: 560px) {
+  .card-equilibrium {    
+    margin-top: 30%;
+    padding: 0;
+    width: 300px;
+    height: 460px; 
+  }
+
+  .container_equilibrium {
+    margin: 15px;
+    width: 240px;
+    height: 240px;
+    border-radius: 5%;    
+    background-size: 30px 30px;  
+  }
+  
+  .container_equilibrium img {    
+    width: 240px;
+    height: 240px;    
+  }
+
+  .name {     
+    font-size: 17px;
+  }
+    
+  p {    
+    font-size: 14px;
+  }
+
+  .etherum {
+    margin-bottom: 10px;
+  }
+  .etherum p {
+    margin-top: 4px;        
+    font-size: 13px;
+  }    
+  
+  .etherum img {
+    margin-top: 0;    
+    width: 9px;
+    height: 13px;
+  }
+  
+  .clock span {
+    margin-left: 5px;
+    font-size: 14px;
+  }
+
+  .clock img {
+    width: 18px;
+    height: 18px;
+  }  
+
+  hr {
+    border: 1px solid var(--very_dark_blueLine);
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .profile {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .profile img {  
+    margin-left: 25px;
+    margin-right: 8px;
+    width: 25px;
+    height: 25px;
+  }
+}
