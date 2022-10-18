@@ -155,7 +155,7 @@ hr {
 }
 
 /*--------- Media Query ----------*/
-@media(max-width: 560px) {
+@media(max-width: 375px) {
   .card-equilibrium {    
     margin-top: 30%;
     padding: 0;
