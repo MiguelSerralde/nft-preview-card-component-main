@@ -186,6 +186,7 @@ hr {
 
   .etherum {
     margin-bottom: 10px;
+    margin-right: 0;
   }
   .etherum p {
     margin-top: 4px;        
@@ -194,18 +195,23 @@ hr {
   
   .etherum img {
     margin-top: 0;    
-    width: 9px;
-    height: 13px;
+    width: 10px;
+    height: 14px;
   }
   
+  .clock {
+    margin-left: 0;
+    margin-top: 3px;
+  }
+
   .clock span {
     margin-left: 5px;
     font-size: 14px;
   }
 
   .clock img {
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
   }  
 
   hr {
